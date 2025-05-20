@@ -1,0 +1,10 @@
+{
+  "rules": [
+    { "if": ["fever", "cough"], "then": "flu" },
+    { "if": ["sore_throat", "runny_nose"], "then": "cold" },
+    { "if": ["flu"], "then": "rest_needed" },
+    { "if": ["cold"], "then": "stay_warm" },
+    { "if": ["headache", "muscle_pain"], "then": "flu" },
+    { "if": ["sneezing"], "then": "cold" }
+  ]
+}
